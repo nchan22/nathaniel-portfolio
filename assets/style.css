@@ -94,5 +94,24 @@ section div h2 {
   color: blueviolet;
 }
 
+/* about me section */
+#about-me {
+  display: flex;
+  justify-content: center;
+}
+
+article h2 {
+  padding: 2rem 10rem 0 10rem;
+  border-right: 5px blue solid;
+  font-size: 2rem;
+  color: blue;
+}
+
+article p {
+  padding-left: 2rem;
+  font-size: 1.75rem;
+  font-style: bold;
+}
+
 @media screen {
 }
