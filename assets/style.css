@@ -100,7 +100,14 @@ section div h2 {
   justify-content: center;
 }
 
-article h2 {
+/* article h2 {
+  padding: 2rem 10rem 0 10rem;
+  border-right: 5px blue solid;
+  font-size: 2rem;
+  color: blue;
+} */
+
+.primary-section-header {
   padding: 2rem 10rem 0 10rem;
   border-right: 5px blue solid;
   font-size: 2rem;
@@ -111,6 +118,12 @@ article p {
   padding-left: 2rem;
   font-size: 1.75rem;
   font-style: bold;
+}
+
+/* work section */
+#work {
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen {
