@@ -109,33 +109,60 @@ article p {
 /* work section */
 #work {
   display: flex;
-  /* justify-content: center; */
-  /* flex-direction: row; */
 }
 
-/* section div img {
-  width: 30%;
-  height: 20%;
-} */
+#work div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .run-buddy {
-  flex: 1;
-  padding: 20px;
+  flex: 60%;
+  display: flex;
+  padding-top: 3rem;
+}
+
+.run-buddy a {
+  width: 90%;
+  height: 80%;
+  display: inline-block;
 }
 
 .run-buddy img {
-  width: 35%;
-  height: 30%;
+  width: 100%;
+  height: 100%;
+  padding-left: 7rem;
+  display: block;
+  vertical-align: middle;
+}
+
+.run-buddy a p {
+  font-size: 2rem;
+  padding-left: 7rem;
 }
 
 .extra-image {
-  flex: 1;
-  padding: 20px;
+  flex: 60%;
+  display: flex;
+  padding-top: 3rem;
+  flex-shrink: 2;
 }
 
-.extra-image img {
-  width: 30%;
-  height: 20%;
+.extra-image a {
+  width: 50%;
+  height: 70%;
+  padding-left: 7rem;
+}
+
+.extra-image a img {
+  width: 100%;
+  height: 100%;
+}
+
+.extra-image a p {
+  font-size: 2rem;
+  padding-left: 7rem;
 }
 
 /* resume section */
@@ -205,5 +232,11 @@ footer div {
   text-align: right;
 }
 
-@media screen {
+@media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 575px) {
 }
