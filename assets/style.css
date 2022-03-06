@@ -65,13 +65,13 @@ header nav a:hover {
 }
 
 /* background image */
-.background {
+/* .background {
   display: flex;
   display: inline-flexbox;
   width: 100%;
   top: 0%;
   width: 100%;
-}
+} */
 
 .background {
   background-image: url("../assets/images/background.jpg");
@@ -123,8 +123,79 @@ article p {
 /* work section */
 #work {
   display: flex;
-  flex-direction: column;
+  /* justify-content: center; */
+  /* flex-direction: row; */
 }
 
+/* section div img {
+  width: 30%;
+  height: 20%;
+} */
+
+.run-buddy {
+  flex: 1;
+  padding: 20px;
+}
+
+.run-buddy img {
+  width: 35%;
+  height: 30%;
+}
+
+.extra-image {
+  flex: 1;
+  padding: 20px;
+}
+
+.extra-image img {
+  width: 30%;
+  height: 20%;
+}
+
+/* Contact me */
+#contact-me {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+#contact-me nav ul {
+  padding: 15px 15px 0 0;
+  margin: 15px 15px 0 0;
+}
+
+#contact-me nav ul li {
+  display: inline;
+  list-style: none;
+  font-size: 1.5vw;
+  margin-left: 2.5vw;
+}
+
+#contact-me nav a {
+  text-decoration-thickness: 3px;
+  text-decoration-color: red;
+}
+
+#contact-me nav a:hover {
+  background-color: rgb(187, 153, 187);
+  color: white;
+  border-radius: 50%;
+}
+
+/* resume section */
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
+#resume div a {
+  /* padding-left: 3rem; */
+}
+
+#resume div a img {
+  padding-left: 3rem;
+  width: 45%;
+}
 @media screen {
 }
