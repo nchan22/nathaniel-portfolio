@@ -119,8 +119,9 @@ article p {
 
 .run-buddy {
   flex: 60%;
-  display: flex;
+  flex-flow: row wrap;
   padding-top: 3rem;
+  padding-left: 7rem;
 }
 
 .run-buddy a {
@@ -132,14 +133,13 @@ article p {
 .run-buddy img {
   width: 100%;
   height: 100%;
-  padding-left: 7rem;
   display: block;
-  vertical-align: middle;
 }
 
-.run-buddy a p {
+.run-buddy div p {
   font-size: 2rem;
-  padding-left: 7rem;
+  /* margin-left: 7rem; */
+  display: inline-flex;
 }
 
 .extra-image {
@@ -147,12 +147,14 @@ article p {
   display: flex;
   padding-top: 3rem;
   flex-shrink: 2;
+  flex-flow: row wrap;
 }
 
 .extra-image a {
   width: 50%;
   height: 70%;
   padding-left: 7rem;
+  flex-flow: row wrap;
 }
 
 .extra-image a img {
