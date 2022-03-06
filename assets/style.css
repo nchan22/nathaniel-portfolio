@@ -65,13 +65,6 @@ header nav a:hover {
 }
 
 /* background image */
-/* .background {
-  display: flex;
-  display: inline-flexbox;
-  width: 100%;
-  top: 0%;
-  width: 100%;
-} */
 
 .background {
   background-image: url("../assets/images/background.jpg");
@@ -99,13 +92,6 @@ section div h2 {
   display: flex;
   justify-content: center;
 }
-
-/* article h2 {
-  padding: 2rem 10rem 0 10rem;
-  border-right: 5px blue solid;
-  font-size: 2rem;
-  color: blue;
-} */
 
 .primary-section-header {
   padding: 2rem 10rem 0 10rem;
@@ -152,6 +138,21 @@ article p {
   height: 20%;
 }
 
+/* resume section */
+#resume {
+  display: flex;
+  justify-content: center;
+}
+
+#resume div a {
+  /* padding-left: 3rem; */
+}
+
+#resume div a img {
+  padding-left: 3rem;
+  width: 45%;
+}
+
 /* Contact me */
 #contact-me {
   display: flex;
@@ -183,19 +184,26 @@ article p {
   border-radius: 50%;
 }
 
-/* resume section */
-#resume {
+/* footer section */
+footer {
+  background: aqua;
+  padding: 40px 35px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-#resume div a {
-  /* padding-left: 3rem; */
+footer h3 {
+  color: blue;
+  font-size: 30px;
+  margin: 0;
 }
 
-#resume div a img {
-  padding-left: 3rem;
-  width: 45%;
+footer div {
+  line-height: 1.5;
+  text-align: right;
 }
+
 @media screen {
 }
