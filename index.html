@@ -4,53 +4,116 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="assets\style.css" />
+    <title>
+      Nathaniel Chan's portfolio that shows contact information, work done and a
+      webpage displaying that information.
+    </title>
   </head>
   <body>
+    <!-- this is a navigation bar -->
+    <!-- WHEN I click one of the links in the navigation
+    THEN the UI scrolls to the corresponding section -->
+    <header>
+      <h1>
+        <a href="index.html">Nathaniel Chan</a>
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+          <li>
+            <a href="#resume">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero/jumbotron -->
     <!-- WHEN I load their portfolio
     THEN I am presented with the developer's name, a recent photo or avatar, 
     and links to sections about them, their work, and how to contact them -->
-    <img src="" alt="" />
+    <section>
+      <img
+        src="assets\images\background-image"
+        alt="colorful background picture"
+      />
+      <h2>Insert Subtitle here</h2>
+    </section>
 
-    <!-- WHEN I click one of the links in the navigation
-    THEN the UI scrolls to the corresponding section -->
-    <nav>
+    <!-- about me section -->
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia
+        praesentium aut amet veritatis tempore modi soluta repudiandae quia
+        eligendi sint dicta alias ipsa iure ex, sequi tempora voluptatibus.
+        Ducimus, temporibus.
+      </p>
+    </section>
+
+    <section id="work">
+      <div><h2>Work</h2></div>
+      <div>
+        <img
+          src="assets\images\run-buddy.jpg"
+          alt="screenshot of Run Buddy website"
+        />
+        <p></p>
+      </div>
+      <div>
+        <img src="assets\images\image1" alt="" />
+        <p>asdfa</p>
+        <img src="assets\images\image2" alt="" />
+        <p>asdfasdf</p>
+      </div>
+      <div>
+        <img src="assets\images\image3" alt="" />
+        <p>asdfasdf</p>
+        <img src="assets\images\image4" alt="" />
+        <p>asdfasdf</p>
+      </div>
+    </section>
+
+    <!-- contact me section-->
+    <section id="contact-me">
+      <h2>Contact Me</h2>
       <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>555.555.5555</li>
+        <li>
+          <a href="">include twitter</a>
+        </li>
+        <li>
+          <a href="mailto:nhchan22@gmail.com">Email Me!</a>
+        </li>
+        <li>
+          <a href="">github</a>
+        </li>
+        <li><a href="">LinkedIn</a></li>
       </ul>
-    </nav>
-
-    <!-- WHEN I click on the link to the section about their work
-    THEN the UI scrolls to a section with titled images of the developer's applications -->
-    <section>
-      <!-- include link to work and scrolls to titled image of app (from nav)-->
     </section>
 
-    <section>
-      <!-- include link to work and scrolls to titled image of app (from nav)-->
+    <!-- resume section -->
+    <section id="resume">
+      <h2>Resume</h2>
+
+      <a
+        href="assets\extra\Nathaniel Chan's Resume Jan 2022.pdf"
+        target="_blank"
+        ><img
+          src="assets\images\resume.jpg"
+          alt="screenshot of page 1 of Nathaniel Chan's Resume" />
+        <img
+          src="assets\images\resume2.jpg"
+          alt="screenshot of page 2 of Nathaniel Chan's Resume"
+      /></a>
     </section>
-
-    <section>
-      <!-- include link to work and scrolls to titled image of app (from nav)-->
-    </section>
-
-    <section>
-      <!-- include link to work and scrolls to titled image of app (from nav)-->
-    </section>
-
-    <!-- WHEN I am presented with the developer's first application
-    THEN that application's image should be larger in size than the others-->
-    <!-- a hover over image so that it's larger than the other app images-->
-
-    <!--  WHEN I click on the images of the applications
-    THEN I am taken to that deployed application -->
-    <!-- link href =""    include a link to the github pages site-->
-
-    <!--  WHEN I resize the page or view the site on various screens and devices
-    THEN I am presented with a responsive layout that adapts to my viewport -->
-    <!-- include media query-->
   </body>
 </html>
