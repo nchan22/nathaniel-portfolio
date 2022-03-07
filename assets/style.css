@@ -90,7 +90,6 @@ section div h2 {
 /* about me section */
 #about-me {
   display: flex;
-  justify-content: center;
 }
 
 .primary-section-header {
@@ -98,12 +97,13 @@ section div h2 {
   border-right: 5px blue solid;
   font-size: 2rem;
   color: blue;
+  width: 20%;
 }
 
 article p {
   padding-left: 2rem;
   font-size: 1.75rem;
-  font-style: bold;
+  width: 60%;
 }
 
 /* work section */
@@ -113,8 +113,7 @@ article p {
 
 #work div {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .run-buddy {
@@ -125,61 +124,79 @@ article p {
 }
 
 .run-buddy a {
-  width: 90%;
-  height: 80%;
-  display: inline-block;
+  width: 80%;
+  height: 30%;
+  position: relative;
 }
 
 .run-buddy img {
   width: 100%;
   height: 100%;
   display: block;
+  border: 0.75rem grey solid;
+  z-index: 0;
+  position: relative;
 }
 
-.run-buddy div p {
+.run-buddy div h3 {
   font-size: 2rem;
-  /* margin-left: 7rem; */
-  display: inline-flex;
+  display: flex;
+  z-index: 0;
+}
+
+.position {
+  position: absolute;
+  left: 2rem;
+  bottom: 2rem;
+  border: 3px yellowgreen solid;
+  z-index: 10;
+  font-size: 30px;
+  color: rgb(0, 234, 255);
 }
 
 .extra-image {
   flex: 60%;
-  display: flex;
   padding-top: 3rem;
-  flex-shrink: 2;
-  flex-flow: row wrap;
+  width: 100%;
 }
 
 .extra-image a {
   width: 50%;
   height: 70%;
-  padding-left: 7rem;
-  flex-flow: row wrap;
 }
 
 .extra-image a img {
-  width: 100%;
-  height: 100%;
+  width: 500px;
+  height: 250px;
+  border: 0.75rem grey solid;
+  margin-right: 7rem;
 }
 
 .extra-image a p {
-  font-size: 2rem;
-  padding-left: 7rem;
+  font-size: 20px;
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  border: 3px yellowgreen solid;
+  z-index: 10;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(0, 234, 255);
 }
 
 /* resume section */
 #resume {
   display: flex;
-  justify-content: center;
 }
 
 #resume div a {
-  /* padding-left: 3rem; */
+  /* width: 70%; */
 }
 
 #resume div a img {
   padding-left: 3rem;
-  width: 45%;
+  width: 49%;
 }
 
 /* Contact me */
