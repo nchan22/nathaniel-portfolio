@@ -16,7 +16,7 @@ https://nchan22.github.io/nathaniel-portfolio/
 
 - Adding more work projects
 - Updating with animations and more styles
-- 
+- Continuing to always learn and be open to opportunities
 
 
 ## Contribution
